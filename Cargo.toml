@@ -1,0 +1,17 @@
+[package]
+name = "drain_at_sorted_unchecked"
+version = "0.1.0"
+authors = ["JohnScience <demenev.dmitriy1@gmail.com>"]
+edition = "2021"
+description = "Terribly unsafe but highly efficient function that allows removing items from a vector with few moves."
+documentation = "https://docs.rs/drain_at_sorted_unchecked"
+readme = "README.md"
+homepage = "https://github.com/JohnScience/drain_at_sorted_unchecked"
+repository = "https://github.com/JohnScience/drain_at_sorted_unchecked"
+license = "MIT OR Apache-2.0"
+keywords = ["drain", "retain", "remove", "vec", "vector"]
+categories = ["rust-patterns", "algorithms"] # https://crates.io/category_slugs
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
